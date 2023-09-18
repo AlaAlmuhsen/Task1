@@ -31,7 +31,7 @@ if($parts[1] != "api"){
 // var_dump($parts);
 
 
-$database = new Database("localhost", "Task1","alaa","Alaam12$");
+$database = new Database("localhost", "Task1","alaa","");
 
 switch($parts[2]){
   case "user":
